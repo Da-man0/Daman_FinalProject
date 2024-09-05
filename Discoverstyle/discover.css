@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.header h1 {
+    color: #b981fb;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+ 
+    
+}
+
+.card h2 {
+    margin: 0;
+}
+.charmimage{
+    width: 180px;
+    height: 300px;
+    margin-right: 10%;
+    margin-bottom: -7%;
+
+}
+
+.herbologyimage{
+
+    width: 250px;
+    height: 300px;
+  
+    margin-bottom: -7%;
+}
+
+.potionimage{
+    width: 250px;
+    height: 300px;
+    margin-right: 5%;
+    margin-bottom: -5%;
+}
+.transimage{
+    width: 250px;
+    height: 270px;
+  
+    margin-bottom: 8%;
+}
+.fbimage{
+    width: 250px;
+    height: 270px;
+  
+    margin-bottom: 8%; 
+}
+
+.large-card {
+    grid-column: span 2;
+    background-color: #fbb100;
+}
+
+.small-card {
+    background-color: #9b5de5;
+}
+
+#charms {
+    background-color: #caaacd;
+}
+
+#transfiguration {
+    background-color: #cb962e;
+}
+
+#fantastic-beasts {
+    background-color: #43263a;
+}
+
+#herbology {
+    background-color: #ef601e;
+}
+
+#potions {
+    background-color: #d6e8f7;
+}
+
+#defense-dark-arts {
+    background-color: #f1dfb6;
+}
+
+
+.card::after {
+    content: "+";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+}
+
+#wizard-wikipedia {
+    background-color: #2d9cdb;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
