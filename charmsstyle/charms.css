@@ -123,6 +123,24 @@ body {
 #confundo {
     background-color: #f1dfb6;
 }
+#stupify {
+    background-color: #aeb2d5;
+}
+#protego {
+    background-color: #182527;
+}
+
+#scourgify {
+    background-color: #a9655a;
+}
+
+#revelio {
+    background-color: #fcf3d3;
+}
+
+#obliviate {
+    background-color: #43263a;
+}
 
 
 .card::after {
